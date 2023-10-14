@@ -1,0 +1,113 @@
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 12vmin;
+  pointer-events: none;
+}
+
+.App header {
+  position: fixed;
+  width: 80%;
+  height: 51px;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  padding: 0 60px 0 60px;
+  box-sizing: border-box;
+}
+
+.App header a {
+  text-decoration: none;
+  color: white;
+}
+
+.App header :first-child:hover, .App header div div:hover {
+  color: #00bceb;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.App-main {
+  background-color: #212529;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background: radial-gradient(#0a0d16, #282c30);
+}
+
+.App-main h2 {
+  margin-bottom: 0;
+}
+
+.App-main p {
+  margin-top: 0;
+}
+
+.App-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.App-input {
+}
+
+.App-link, .App-input {
+  text-shadow: none;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 13px;
+  text-align: center;
+  line-height: 100%;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #00bceb;
+}
+
+.App-link {
+  background-color: #00bceb;
+  color: white;
+  cursor: pointer;
+}
+.App-emergency {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  z-index: 10;
+  text-shadow: none;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 13px;
+  text-align: center;
+  line-height: 100%;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #db1550;
+  border: 1px solid #db1550;
+  cursor: pointer;
+}
+
+.App-link:hover {
+
+}
